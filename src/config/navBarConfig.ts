@@ -133,27 +133,6 @@ export const navBarConfig: NavBarConfig = {
 		// 预设链接：归档
 		LinkPreset.Archive,
 
-		// 自定义一级下拉菜单示例：外部链接集合
-		{
-			name: "Links",
-			url: "/links/",
-			icon: "material-symbols:link",
-			children: [
-				{
-					name: "GitHub",
-					url: "https://github.com/LyraVoid/Mizuki",
-					external: true, // 外部链接，新标签页打开
-					icon: "fa7-brands:github",
-				},
-				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
-					external: true,
-					icon: "mdi:git",
-				},
-			],
-		},
-
 		// 自定义一级下拉菜单示例：个人内容页面
 		{
 			name: "My",
@@ -176,15 +155,8 @@ export const navBarConfig: NavBarConfig = {
 		// 自定义一级下拉菜单示例：关于相关
 		{
 			name: "About",
-			url: "/content/",
-			icon: "material-symbols:info",
-			children: [
-				{
-					name: "About",
-					url: "/about/",
-					icon: "material-symbols:person",
-				},
-			],
+			url: "/about/",
+			icon: "material-symbols:person",
 		},
 
 		// 自定义一级下拉菜单示例：其他页面

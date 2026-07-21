@@ -2,7 +2,6 @@
 This website is built with the **Astro** framework using the [Mizuki](https://github.com/LyraVoid/Mizuki) theme.
 
 ::github{repo="LyraVoid/Mizuki"}
-
 ## 🌟 Theme Features
 
 ### 🎨 Design & User Experience
@@ -46,4 +45,4 @@ This website is built with the **Astro** framework using the [Mizuki](https://gi
 
 ---
 
-*Built with ❤️ using Astro and inspired by modern web design principles.*
+<!-- *Built with ❤️ using Astro and inspired by modern web design principles.* -->

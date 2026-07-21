@@ -81,6 +81,7 @@ export default defineConfig({
 			fallbacks: [],
 			optimizedFallbacks: false,
 		},
+		
 	],
 
 	site: siteConfig.siteURL,
