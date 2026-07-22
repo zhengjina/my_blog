@@ -1,0 +1,29 @@
+/* src/styles/font-size.css (替换现有文件) */
+
+:root {
+  --fs-border: #d0d0d0;
+  --fs-accent: #222;
+  --fs-btn-bg: rgba(255,255,255,0);
+  --fs-btn-color: inherit;
+}
+
+/* 直接在带类的 html 上设置 font-size，优先级高于单独的类选择器 */
+html.fs-small { font-size: 14px; }
+html.fs-medium { font-size: 16px; }
+html.fs-large { font-size: 18px; }
+
+/* 备用：保证当某些地方使用了更高优先级的规则时仍能覆盖（如必要可去掉 !important） */
+html.fs-small.override { font-size: 14px !important; }
+html.fs-medium.override { font-size: 16px !important; }
+html.fs-large.override { font-size: 18px !important; }
+
+/* 站点正文使用 rem 单位以便随根字号变化 */
+body {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* 若文章容器使用了 px，请改为 rem 以响应切换（示例） */
+.post, .content, article {
+  font-size: 1rem;
+}

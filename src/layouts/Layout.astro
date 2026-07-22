@@ -22,6 +22,10 @@ import "../styles/panel-animations.css";
 import AnalyticsScripts from "./partials/AnalyticsScripts.astro";
 import HeadTags from "./partials/HeadTags.astro";
 
+// 导入字体大小切换组件与样式
+import FontSizeToggle from "../components/font/FontSizeToggle.svelte";
+import "../styles/font-size.css";
+
 interface Props {
 	title?: string;
 	banner?: string;
@@ -226,6 +230,10 @@ const bannerOffset =
 			height={siteConfig.pageProgressBar?.height ?? 3}
 			duration={siteConfig.pageProgressBar?.duration ?? 8000}
 		/>
+		<!-- 字体大小切换器（浮动在右上角） -->
+		<div id="font-size-toggle" class="fixed top-4 right-4 z-50">
+			<FontSizeToggle client:load />
+		</div>
 		<slot />
 
 		<!-- Music Player - 核心始终加载（当enable=true），UI通过showFloatingPlayer控制 -->
