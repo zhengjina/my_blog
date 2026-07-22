@@ -1,48 +1,45 @@
+#  欢迎来到 GINA 的秘密花园
 
-This website is built with the **Astro** framework using the [Mizuki](https://github.com/LyraVoid/Mizuki) theme.
+你好，我是 **GINA**！很高兴你能在这个小小的角落与我相遇。
 
-::github{repo="LyraVoid/Mizuki"}
-## 🌟 Theme Features
-
-### 🎨 Design & User Experience
-- **Modern & Elegant Design** - Clean, minimalist interface with beautiful typography
-- **Fully Responsive** - Optimized for all devices from mobile to desktop
-- **Dark/Light Mode** - Automatic theme switching with smooth transitions
-- **Beautiful Typography** - Enhanced readability with JetBrains Mono font
-- **Smooth Animations** - Fluid page transitions and interactive elements
-
-### 🔍 Content & Search
-- **Advanced Search** - Powered by [Pagefind](https://pagefind.app/) for fast, accurate results
-- **Enhanced Markdown** - Extended syntax with code highlighting and math support
-- **Interactive Table of Contents** - Auto-scroll navigation for long articles
-- **RSS Feed Generation** - Stay updated with automatic feed generation
-- **Reading Time Estimation** - Know how long articles take to read
-- **Post Categorization** - Organize content with tags and categories
-
-
-
-### 📱 Special Pages
-- **Anime Tracking Page** - Track your anime watching progress with ratings
-- **Friends Links Page** - Showcase friend websites with beautiful cards
-- **Diary/Moments Page** - Share life moments like social media posts
-- **Archive Page** - Organized timeline view of all posts
-- **About Page** - Customizable personal introduction (this page!)
-
-### 🛠 Technical Features
-- **Enhanced Code Blocks** - Powered by [Expressive Code](https://expressive-code.com/)
-- **Math Support** - LaTeX rendering with KaTeX for mathematical expressions
-- **Image Optimization** - PhotoSwipe gallery with lazy loading
-- **SEO Optimized** - Built-in sitemap and meta tags for better search visibility
-- **Performance Optimized** - Fast loading with caching and optimization
-- **Comment System Ready** - Integration support for Twikoo comments
-
-### 🎯 Advanced Markdown Features
-- **Callouts & Admonitions** - Beautiful info boxes with `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`
-- **Mathematical Equations** - Write LaTeX math with `$inline$` and `$$block$$` syntax
-- **GitHub Cards** - Embed repository cards with `::github{repo="user/repo"}`
-- **Syntax Highlighting** - Advanced code highlighting with line numbers
-- **Copy Code Buttons** - Easy code copying functionality
+> [!TIP] 这里是什么地方？
+> 这是一个用来记录生活、分享技术、沉淀思考的个人博客。你可以把它当成我的“精神避难所”，或者一个存放时光碎片的数字抽屉。
 
 ---
 
-<!-- *Built with ❤️ using Astro and inspired by modern web design principles.* -->
+## ️ 我在做什么？
+
+我是一名热爱创造的技术探索者。在代码的世界里，我喜欢用逻辑去构建秩序；在文字的世界里，我试图用感性去捕捉生活。
+
+目前，这个博客基于 **Astro** 框架并使用 **Mizuki** 主题搭建，它本身也是我的一个开源项目：
+
+::github{repo="LyraVoid/Mizuki"}
+
+我日常关注的领域包括：
+- **前端开发**：热衷于探索 Web 技术的边界，喜欢研究各种优雅的主题和交互。
+- **开源文化**：喜欢阅读优秀的开源项目，偶尔也会贡献一些微小的代码。
+- **生活随笔**：在 0 和 1 之外，我也喜欢记录生活中的小确幸、看过的电影和读过的书。
+
+---
+
+##  为什么叫“秘密花园”？
+
+每个人心里都需要一个不被打扰的地方。在这个信息过载的时代，我希望这里是一个纯粹的自留地。
+
+> [!NOTE] 保持热爱，奔赴山海。
+> 这里的文章可能不会每天更新，但每一篇都是经过沉淀的思考。希望你在阅读时，也能感受到那份平静与温柔。
+
+---
+
+##  找到我
+
+如果你喜欢我的文章，或者只是想打个招呼，欢迎通过以下方式联系我：
+
+-  **Email**: [your-email@example.com](mailto:your-email@example.com)
+-  **GitHub**: [github.com/your-username](https://github.com/your-username)
+-  **Twitter/X**: [twitter.com/your-username](https://twitter.com/your-username)
+-  **网易云音乐**: [你的网易云主页链接]
+
+---
+
+*“Stay Hungry, Stay Foolish. 保持好奇，保持热爱。”*
